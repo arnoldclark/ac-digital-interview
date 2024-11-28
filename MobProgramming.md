@@ -1,4 +1,4 @@
-# Option 1: Mob Programming
+# Mob Programming
 
 This session is intended to help us understand how you would approach a very common problem.
 
@@ -27,5 +27,5 @@ Please treat this exercise as if it was part of your normal working day. You can
 
 You can also use any packages you want - we would love to find out what your usual workflow looks like!
 
-We've set up some things to get started:
+We've set up a simple project to get you started.
 
