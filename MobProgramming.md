@@ -7,6 +7,8 @@ We'll need you to create an API which supports the following:
 - A GET endpoint which returns a list of cars from the database.
 - A POST endpoint which allows you to add a car to the database.
 
+We'll also be looking for you to show that you are comfortable writing some SQL queries.
+
 This session is run as a [mob programming session](https://en.wikipedia.org/wiki/Mob_programming), and the end result is less important than the process - we're looking for people who communicate well, are empathetic towards their colleagues, and look for opportunities to share knowledge.
 
 The API you create could be used to drive a page like the one shown below.
