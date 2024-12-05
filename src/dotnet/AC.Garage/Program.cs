@@ -19,8 +19,6 @@ public class Program
         builder.Services.AddDbContext<GarageDbContext>(opts =>
             opts.UseSqlServer(builder.Configuration.GetConnectionString(nameof(GarageDbContext))));
 
-        builder.Services.AddEntityFrameworkInMemoryDatabase();
-
         var app = builder.Build();
 
         // Configure the HTTP request pipeline.
