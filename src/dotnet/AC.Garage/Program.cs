@@ -16,8 +16,8 @@ public class Program
         builder.Services.AddEndpointsApiExplorer();
         builder.Services.AddSwaggerGen();
 
-        builder.Services.AddDbContext<GarageDbContext>(opts => opts.UseInMemoryDatabase("ACGarage"));
-        builder.Services.AddEntityFrameworkInMemoryDatabase();
+        builder.Services.AddDbContext<GarageDbContext>(opts =>
+            opts.UseSqlServer(builder.Configuration.GetConnectionString(nameof(GarageDbContext))));
 
         var app = builder.Build();
 
